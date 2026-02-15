@@ -1,0 +1,25 @@
+Catatan Proyek: Fajar (Smart Procurement System)
+1. Visi & Tujuan:
+
+Fungsi Utama: Sebagai aplikasi "penyaring" (buffer) data belanjaan warung sebelum masuk ke sistem utama (Sinar Pagi).
+
+Masalah yang Diselesaikan: Menghilangkan keribetan input manual dari struk fisik yang berantakan, mencocokkan nama barang yang tidak konsisten dari supplier (fitur Alias), dan memantau fluktuasi harga modal secara real-time.
+
+2. Teknologi yang Digunakan (Tech Stack):
+
+Framework: Vue 3 (Composition API) untuk logika yang reaktif dan bersih.
+
+Build Tool: Vite (Super cepat, mendukung HMR).
+
+Styling: Tailwind CSS v4 (Modern, performa tinggi, konfigurasi otomatis).
+
+Database Lokal: Dexie.js (IndexedDB) agar aplikasi bisa bekerja Offline-First.
+
+Backend & Cloud: Firebase (Firestore untuk sinkronisasi data ke Sinar Pagi, Storage untuk simpan foto struk).
+
+Deployment: Vercel (Auto-deploy via GitHub dengan dukungan PWA).
+
+Fitur Spesial: Tesseract.js (OCR untuk baca teks dari foto) dan Service Workers (PWA agar bisa diinstal di HP).
+
+3. Arsitektur Folder:
+Aplikasi menggunakan struktur Modular SPA, memisahkan antara UI (Components), Halaman (Views), Logika Database (Database), dan Logika Bisnis (Composables/Services).
