@@ -1,0 +1,24 @@
+Daftar Memori Proyek: Aplikasi Pencatat Struk
+Deskripsi Proyek: Aplikasi web offline-first (PWA) untuk mencatat struk belanja.
+
+Teknologi Utama (Stack):
+
+Vue.js: Framework frontend.
+
+Vite: Build tool untuk kecepatan pengembangan.
+
+Tailwind CSS: Framework styling untuk antarmuka yang responsif.
+
+Dexie.js: Wrapper IndexedDB untuk database lokal yang mendukung fitur offline.
+
+Firebase: Digunakan untuk API Key layanan eksternal (kemungkinan sinkronisasi atau OCR).
+
+Fitur Utama:
+
+Scanning (OCR): Memindai teks dari foto struk fisik secara otomatis.
+
+Offline Data: Menyimpan riwayat transaksi dan harga barang langsung di perangkat.
+
+Histori Harga: Melacak perubahan harga produk dari waktu ke waktu.
+
+Manajemen Alias: Fitur pencarian pintar yang menghubungkan variasi nama produk yang berbeda ke satu entitas yang sama.
